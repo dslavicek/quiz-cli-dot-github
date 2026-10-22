@@ -39,3 +39,5 @@ jobs:
       - uses: astral-sh/setup-uv@v7
       - run: uv tool install ty
       - run: uv run ty check
+      - run: uv --version
+      - run: python3 --version
