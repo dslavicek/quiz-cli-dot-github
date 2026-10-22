@@ -41,4 +41,4 @@ jobs:
       - run: uv tool install ty
       - run: uv run ty check
       - run: uv --version
-      - run: python3 --version
+      - run: python3 -m pip --version
