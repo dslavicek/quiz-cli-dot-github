@@ -2,6 +2,7 @@ name: Code quality checks
 
 on:
   workflow_call:
+  workflow_dispatch:
   
 jobs:
   ruff:
